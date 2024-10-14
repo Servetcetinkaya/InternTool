@@ -50,7 +50,7 @@ with open("mesaj.txt", "r") as file:
 konu = "Uzun Dönem İş Yeri Eğitimi"
 
 # CV dosyasının yolu
-cv_dosyasi = "servetcv.pdf"  # Buraya CV dosyanın tam yolunu yaz
+cv_dosyasi = "servetcv.pdf"  # Buraya CV dosyanın tam yolunu yaz, eğer tool ile aynı dizindeyse gerek yok.
 
 # Tüm e-posta adreslerine mesaj gönderme
 for satir in email_listesi:
